@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <h1 class="title">
+            <b>Homepage</b>
+        </h1>
+        <div>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <h2><a class="nav-link active" aria-current="page" href="index.html" style="color: purple">Home</a></h2>
+                        <h2><a class="nav-link" href="conditions.html"> Use C conditions</a></h2>
+                        <h2><a class="nav-link" href="cheesecake.html">Cheesecake</a></h2>
+                        <h2><a class="nav-link" href="Presentation.html">About me</a></h2>
+                    </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <main id="image1">
+            <br><br>
+            <button id="b1">
+                <b>BUTTON</b>
+            </button>
+
+            <p id="para1"> </p>
+
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script>
+            document.querySelector('#b1').addEventListener('click', function(){
+                document.querySelector('#para1').innerHTML = '<h4><br><br><br>Hello</h4>';
+                setTimeout(function() {
+                    document.querySelector('#para1').innerHTML = '<h1><b>BOOOOOOOOOOOOOOOOOOOOOOOOOOO</b></h1>'
+                }, 2000);
+                setTimeout(function() {
+                    document.querySelector('#para1').innerHTML = '<h1><b>BOOOOOOOOOOOOOOOOOOOOOOOOOOO</b></h1><br><h3>I scared you!</h3>'
+                }, 4000);
+                setTimeout(function() {
+                    document.querySelector('#para1').innerHTML = ''
+                }, 6000);
+            });
+        </script>
+    </body>
+</html>

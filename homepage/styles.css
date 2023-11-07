@@ -1,0 +1,74 @@
+.title
+{
+    text-align: center;
+    background-color: pink;
+    color: black;
+    font-family: "Addington CF Serif";
+    padding: 3rem 1rem 3.5rem 1rem;
+}
+body
+{
+    padding: 1rem 1rem 10rem 1rem:
+}
+#b1
+{
+    background-color: RED;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding:2rem 20rem 2rem 1rem;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+}
+#b2
+{
+    color: #660000;
+    font-family: 'Addington CF Serif';
+    font-size: 200;
+    text-align: center;
+    padding: 1rem 1rem 1rem 2rem;
+}
+#b3
+{
+    color: #660000;
+    font-family: 'Addington CF Serif';
+    font-size: 200;
+    text-align: center;
+    padding: 1rem 1rem 1rem 2rem;
+}
+#head1
+{
+    font-size: 18;
+    text-align: left;
+    color: #336600;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.main1
+{
+    color: white;
+    background-color: black;
+    padding: 1rem 1rem 1rem 1rem;
+}
+#ps
+{
+    color: black;
+    background-color: white;
+    padding: 1rem 1rem 1rem 1rem;
+}
+#foot1
+{
+    padding: 1rem 1rem 1rem 1rem;
+}
+img
+{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 125x;
+    height: 150px;
+    padding: 1rem 1rem 1rem 1rem;
+}
+dd
+{
+    padding: 2rem 2rem 2rem 2rem;
+}
